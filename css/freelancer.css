@@ -166,6 +166,7 @@ section.success a.active {
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
+  padding: 125 150;
   right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
@@ -173,6 +174,11 @@ section.success a.active {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link > i {
+  font-size: 15em;
+  width: 100%;
+  text-align: center;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(60, 179, 75, 0.9);
@@ -190,12 +196,12 @@ section.success a.active {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
-  height: 20px;
   font-size: 20px;
   text-align: center;
-  top: 50%;
-  margin-top: -12px;
   color: white;
+  top: 50%;
+  height: 20px;
+  margin-top: -12px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
@@ -327,6 +333,23 @@ footer .footer-below {
 .scroll-top .btn:focus {
   outline: none;
 }
+.portfolio-modal {
+  /*big icon on modal window*/
+}
+.portfolio-modal hr.star-primary {
+  max-width: 100%;
+}
+.portfolio-modal .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.portfolio-modal .portfolio-link > i {
+  font-size: 15em;
+  width: 100%;
+  text-align: center;
+}
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -335,7 +358,7 @@ footer .footer-below {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
